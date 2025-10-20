@@ -1,0 +1,322 @@
+# ===========================================
+# WordPress Website Development .gitignore
+# Compatible with Mac and PC
+# ===========================================
+
+# ===========================================
+# MAC SPECIFIC FILES
+# ===========================================
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# macOS folder attributes
+.AppleDouble
+.LSOverride
+
+# macOS icon files
+Icon?
+
+# macOS resource forks
+__MACOSX/
+
+# ===========================================
+# WINDOWS SPECIFIC FILES
+# ===========================================
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Windows folder config files
+Desktop.ini
+desktop.ini
+
+# ===========================================
+# DEVELOPMENT ENVIRONMENT
+# ===========================================
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# WEB DEVELOPMENT
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===========================================
+# PHP/WORDPRESS DEVELOPMENT
+# ===========================================
+
+# WordPress core files (if not tracking)
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+# WordPress config
+wp-config.php
+wp-config-local.php
+wp-config-production.php
+
+# WordPress uploads
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# WordPress cache
+wp-content/cache/
+wp-content/w3tc-config/
+
+# WordPress plugins (if not tracking)
+wp-content/plugins/
+!wp-content/plugins/index.php
+
+# WordPress themes (if not tracking)
+wp-content/themes/
+!wp-content/themes/index.php
+
+# WordPress database
+*.sql
+*.sql.gz
+
+# PHP
+*.php~
+*.php.bak
+*.php.orig
+
+# Composer
+vendor/
+composer.lock
+
+# ===========================================
+# LOCAL DEVELOPMENT
+# ===========================================
+
+# Local development files
+current/
+_chat/
+*.local
+*.dev
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ===========================================
+# SECURITY & SENSITIVE FILES
+# ===========================================
+
+# API keys and secrets
+.env
+secrets.json
+config.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database credentials
+database.yml
+db_config.php
+
+# ===========================================
+# BUILD & COMPILATION
+# ===========================================
+
+# Build directories
+build/
+dist/
+out/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ===========================================
+# TESTING
+# ===========================================
+
+# Test coverage
+coverage/
+.nyc_output/
+test-results/
+
+# Jest
+jest.config.js
+
+# ===========================================
+# DOCUMENTATION
+# ===========================================
+
+# Generated documentation
+docs/build/
+site/
+
+# ===========================================
+# MISC
+# ===========================================
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS generated files
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===========================================
+# PROJECT SPECIFIC
+# ===========================================
+
+# Your specific project files
+convert_links.sh
+convert_links_complete.sh
+convert_links_awk.sh
+image_urls.txt
+clean_image_urls.txt
+all_image_urls.txt
+
+# Local server files
+*.pid
+*.sock
